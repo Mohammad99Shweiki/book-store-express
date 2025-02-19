@@ -1,0 +1,7 @@
+# Ignore build output
+dist/
+node_modules/
+
+# Ignore environment files
+.env.*
+.env

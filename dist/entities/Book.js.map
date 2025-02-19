@@ -1,0 +1,1 @@
+{"version":3,"file":"Book.js","sourceRoot":"","sources":["../../src/entities/Book.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA,mCAA6E;AAG7E;IAA0B,wBAAU;IAApC;;IASA,CAAC;IAPG;QADC,IAAA,gCAAsB,GAAE;;oCACd;IAGX;QADC,IAAA,gBAAM,GAAE;;uCACK;IAGd;QADC,IAAA,gBAAM,GAAE;;6CACW;IARX,IAAI;QADhB,IAAA,gBAAM,GAAE;OACI,IAAI,CAShB;IAAD,WAAC;CAAA,AATD,CAA0B,oBAAU,GASnC;AATY,oBAAI"}
