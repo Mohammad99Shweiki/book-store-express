@@ -13,8 +13,8 @@ function validateSchema(schema) {
         }
         catch (error) {
             if (error instanceof zod_1.ZodError) {
-                const errorMessages = error.errors.map((issue) => ({
-                    message: `${issue.path.join('.')} is ${issue.message}`,
+                const errorMessages = error.errors.map((ZodError) => ({
+                    message: `${ZodError.path.join('.')} is ${ZodError.message}`,
                 }));
                 res.status(http_status_codes_1.StatusCodes.BAD_REQUEST).json({
                     error: http_status_codes_1.StatusCodes.BAD_REQUEST.toString,
